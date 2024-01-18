@@ -5,4 +5,4 @@ If you want an 8-character password, click on the button with the number 8 on it
 I hope it was useful to you
 if you have any errors or advice, you can reach my e-mail by scrolling down the page. See You Later 👋🏻✨
 
-http://pg.oneccode.com/
+✨ http://pg.oneccode.com/ ✨
