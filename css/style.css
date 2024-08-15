@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+body {
+  background: rgb(60, 61, 55);
+  background: linear-gradient(
+    180deg,
+    rgba(60, 61, 55, 1) 0%,
+    rgba(30, 32, 30, 0.956) 100%
+  );
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #697565;
+}
+
+.form-control {
+  background-color: #697565;
+  color: #ffffff;
+  border-radius: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all 1s ease;
+}
+.form-control:hover {
+  background-color: #ecdfcc;
+  color: #000000;
+}
+
+#sonuc {
+  background-color: #697565;
+  color: #fff;
+  border: 0px solid #fff;
+  border-radius: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all 1s ease;
+}
+#sonuc:hover {
+  background-color: #ecdfcc;
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.btn {
+  padding: 2px 20px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 46px;
+  transition: all 1s ease;
+}
+
+.btn-light {
+  color: rgb(255, 255, 255);
+  background-color: #697565;
+  transition: all 1s ease;
+}
+.btn-light:hover {
+  color: rgb(255, 255, 255);
+  background-color: #ecdfcc;
+}
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.featured-section .row {
+  position: relative;
+  bottom: 100px;
+  margin-bottom: -10px;
+}
+
+h1 {
+  color: #ecdfcc;
+}
+
+h6 {
+  color: #ecdfcc;
+  font-size: 26px;
+  padding: 5px;
+}
+
+p,
+a {
+  padding-left: 10px;
+  color: #ecdfcc;
+  font-size: 20px;
+  transition: all 1s ease;
+}
+
+p,
+a:hover {
+  color: rgb(86, 132, 85);
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+}
+
+.site-footer {
+  position: relative;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+}
