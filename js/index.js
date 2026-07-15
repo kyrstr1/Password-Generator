@@ -27,3 +27,11 @@ document.getElementById('btn8').addEventListener('click', function () { btnClick
 document.getElementById('btn12').addEventListener('click', function () { btnClickHandler(12); });
 document.getElementById('btn16').addEventListener('click', function () { btnClickHandler(16); });
 document.getElementById('sonuc').addEventListener('click', function () { copyPassword(); });
+
+
+
+
+
+
+
+
