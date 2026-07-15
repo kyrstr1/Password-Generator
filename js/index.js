@@ -23,19 +23,7 @@ function copyPassword() {
     $('#sonuc').tooltip('show');
 }
 
-document.getElementById('btn8').addEventListener('click', function () {
-    btnClickHandler(8);
-});
-
-document.getElementById('btn12').addEventListener('click', function () {
-    btnClickHandler(12);
-});
-
-document.getElementById('btn16').addEventListener('click', function () {
-    btnClickHandler(16);
-});
-
-document.getElementById('sonuc').addEventListener('click', function () {
-    copyPassword();
-});
-
+document.getElementById('btn8').addEventListener('click', function () { btnClickHandler(8); });
+document.getElementById('btn12').addEventListener('click', function () { btnClickHandler(12); });
+document.getElementById('btn16').addEventListener('click', function () { btnClickHandler(16); });
+document.getElementById('sonuc').addEventListener('click', function () { copyPassword(); });
